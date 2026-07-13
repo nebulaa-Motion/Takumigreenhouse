@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" fill="#09BE79">
+  <!-- Leaf icon -->
+  <path d="M12 6 C12 6 4 10 4 22 C4 30 10 34 16 34 C10 30 8 22 12 6Z" fill="#09BE79"/>
+  <path d="M12 6 C12 6 20 10 20 22 C20 30 14 34 8 34 C14 30 16 22 12 6Z" fill="#07A068"/>
+  <!-- TAKUMI text -->
+  <text x="30" y="22" font-family="'Poppins', sans-serif" font-weight="700" font-size="16" fill="currentColor">TAKUMI</text>
+  <!-- GREENHOUSE text in smaller -->
+  <text x="30" y="34" font-family="'Inter', sans-serif" font-weight="400" font-size="9" fill="currentColor" opacity="0.8">GREENHOUSE</text>
+</svg>

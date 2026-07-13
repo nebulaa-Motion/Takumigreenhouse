@@ -1,0 +1,47 @@
+/* Takumi Greenhouse Component Animations & Effects */
+
+/* Fade In Animation */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+/* Hero Image Hover */
+.hero-image:hover img {
+  transform: scale(1.05);
+}
+
+/* Card Hover Lifts */
+.card-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+/* Smooth Scroll Offset for Fixed Header */
+section[id] {
+  scroll-margin-top: 80px;
+}
+
+/* Custom selection color */
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+/* Image placeholders */
+.placeholder-image {
+  background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 50%, #A5D6A7 100%);
+}
+
+/* Greenhouse overlay gradient */
+.greenhouse-overlay {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 100%);
+}

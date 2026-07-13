@@ -1,0 +1,45 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\(Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\('facebook'\\) || k.toLowerCase\\(\\).includes\\('instagram'\\) || k.toLowerCase\\(\\).includes\\('linkedin'\\) || k.toLowerCase\\(\\).includes\\('youtube'\\) || k.toLowerCase\\(\\).includes\\('mail'\\) || k.toLowerCase\\(\\).includes\\('phone'\\) || k.toLowerCase\\(\\).includes\\('map'\\)\\)\\)\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\(Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\('facebook'\\) || k.toLowerCase\\(\\).includes\\('insta'\\) || k.toLowerCase\\(\\).includes\\('linked'\\) || k.toLowerCase\\(\\).includes\\('youtube'\\) || k.toLowerCase\\(\\).includes\\('twitter'\\) || k.toLowerCase\\(\\).includes\\('x-'\\)\\)\\)\")",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(node -e 'var fs=require\\(\"fs\"\\);var c=fs.readFileSync\\(\"src/components/About.jsx.bak\",\"utf8\"\\);console.log\\(\"backup has\",c.split\\(\"\\\\n\"\\).length,\"lines\"\\);')",
+      "Bash(python3 -c ' *)",
+      "Bash(cat)",
+      "Bash(python3 /tmp/write_about.py)",
+      "Bash(echo '#!/usr/bin/env python3')",
+      "Bash(echo 'import os')",
+      "Bash(echo 'os.chdir\\(os.path.expanduser\\(\"~/Takumi/takumi-greenhouse\"\\)\\)')",
+      "Bash(cd \"d:/Takumi/takumi-greenhouse\" && printf '%s\\\\n' '#!/usr/bin/env python3' 'import os' \"\" 'os.chdir\\(os.path.dirname\\(os.path.abspath\\(__file__\\)\\)\\)' \"\" 'content = r\"\"\"' > /tmp/wa.py 2>&1 *)",
+      "Read(//tmp/**)",
+      "Bash(python3)",
+      "Bash(node -e \"require\\('fs'\\).copyFileSync\\('src/components/About.jsx.bak', '/tmp/_about_current.jsx'\\);\")",
+      "Bash(cp \"d:/Takumi/takumi-greenhouse/src/components/About.jsx.bak\" \"/tmp/backup_copy.jsx\" && echo \"ok\")",
+      "Bash(python3 -c \"import base64; data=open\\('/tmp/backup_copy.jsx','rb'\\).read\\(\\); print\\(base64.b64encode\\(data\\).decode\\(\\)\\)\")",
+      "Bash(where node *)",
+      "Bash(node -e \"const fs=require\\('fs'\\); fs.writeFileSync\\('/tmp/gen_about.js', Buffer.from\\('ZmN0ciAoKQ==', 'base64'\\)\\); console.log\\('test ok'\\);\")",
+      "Bash(node -e \"console.log\\('hello'\\);\")",
+      "Bash(node -e \"const fs=require\\('fs'\\); const b64=fs.readFileSync\\('src/components/About.jsx.bak','base64'\\); console.log\\('backup_size:', b64.length\\);\")",
+      "Bash(node -e ' *)",
+      "Bash(node --eval 'console.log\\(\"test worktree\"\\)')",
+      "Bash(echo 'const fs = require\\(\"fs\"\\);')",
+      "Bash(echo 'const L = [];')",
+      "Bash(echo 'function a\\(s\\){L.push\\(s\\);}')",
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(echo 'import fs from \"fs\";')",
+      "Bash(echo 'const Q = \"\\\\x27\";')",
+      "Bash(echo 'console.log\\(\"Q =\", Q\\);')",
+      "Bash(node tmp_work/gen.mjs)",
+      "Bash(cd \"d:/Takumi/takumi-greenhouse\" && rm -f tmp_work/gen*.mjs)",
+      "Bash(python3 -c \"print\\('test'\\)\")",
+      "Bash(where perl *)",
+      "Bash(perl -e 'print \"test works\\\\n\";')"
+    ],
+    "additionalDirectories": [
+      "\\tmp",
+      "D:\\Takumi\\takumi-greenhouse\\tmp_work"
+    ]
+  }
+}
