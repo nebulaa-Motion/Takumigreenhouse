@@ -319,16 +319,16 @@ function InquiryFormCard() {
     setLoading(true);
     try {
       await emailjs.send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID || 'YOUR_SERVICE_ID',
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID',
+        import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_vou4rq9',
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_y5bk2bm',
         {
           from_name: formData.name,
           from_email: formData.email,
           company: formData.company,
           message: formData.message,
-          to_email: 'wahyudaffa49@gmail.com', //ganti ke email takumi
+          to_email: 'Rimbaagronusantara@gmail.com',
         },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY',
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'FiuwbIBh1nylOmRfg',
       );
       setSubmitted(true);
       setTimeout(() => {
