@@ -1,16 +1,11 @@
 import { Home, Award, Sprout, Handshake } from 'lucide-react';
-import imgFarm from '../assets/img-about-farm.jpg';
-import imgSeeds from '../assets/img-seedlings.jpg';
-import imgMelonHalf from '../assets/img-melon-half.jpg';
-import imgSliced from '../assets/img-melon-sliced.jpg';
-import greenWave from '../assets/about-green-wave.png';
 import React from 'react';
 import greenhouse1 from '../assets/greenhouse1.jpg';
 import greenhouse2 from '../assets/greenhouse2.jpg';
 import greenhouse3 from '../assets/greenhouse3.jpg';
 import img1 from '../assets/img1.jpg';
 import TakumiTeam from '../assets/takumiteam.jpg';
-
+import greenWave from '../assets/about-green-wave.png';
 function useInView(threshold = 0.12) {
   const ref = React.useRef(null);
   const [inView, setInView] = React.useState(false);

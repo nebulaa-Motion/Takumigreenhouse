@@ -1,6 +1,5 @@
 import { CheckCircle, ShieldCheck, Award, Users, Truck, Zap } from 'lucide-react';
-import imgMelonHalf from '../assets/img-melon-half.jpg';
-import imgMelonSliced from '../assets/img-melon-sliced.jpg';
+
 
 const features = [
   { icon: ShieldCheck, title: 'Premium Quality', desc: 'Strict quality control at every stage' },

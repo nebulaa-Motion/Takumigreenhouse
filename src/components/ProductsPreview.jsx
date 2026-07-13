@@ -1,6 +1,6 @@
 import productShunka from '../assets/Shunka.jpg';
-import productHamigua from '../assets/Hamigua.jpg';
-import productInthanon from '../assets/Inthanon.png';
+import productHamigua from '../assets/hamigua.jpg';
+import productInthanon from '../assets/inthanon.png';
 import React from 'react';
 
 function useInView(threshold = 0.12) {

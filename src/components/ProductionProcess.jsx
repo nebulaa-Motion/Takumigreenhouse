@@ -1,13 +1,13 @@
 import processSeedSelection from '../assets/seed.jpg';
-import processNursery from '../assets/nursery.jpg';
+import processNursery from '../assets/nursery.JPG';
 import processTransplanting from '../assets/transplanting.jpg';
 import processVegetativeGrowth from '../assets/growth.jpg';
-import processPollination from '../assets/pollination.jpg';
+import processPollination from '../assets/pollination.JPG';
 import processFruitDevelopment from '../assets/fruit.jpg';
-import processHarvest from '../assets/harvest.jpg';
+import processHarvest from '../assets/harvest.JPG';
 import processGrading from '../assets/grading.jpg';
 import processPacking from '../assets/packing.png';
-import processDistribution from '../assets/distribution.jpg';
+import processDistribution from '../assets/distribution.JPG';
 import React from "react";
 
 const processSteps = [
