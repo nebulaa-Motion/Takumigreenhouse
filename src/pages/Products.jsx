@@ -12,7 +12,7 @@ import React from 'react';
 
 import ShunkaWhole from '../assets/Shunka.jpg';
 import ShunkaCut from '../assets/shunkacut.JPG';
-import ShunkaCross from '../assets/Shunkacross.JPG';
+import ShunkaCross from '../assets/shunkacross.JPG';
 import HamiguaWhole from '../assets/hamigua.jpg';
 import HamiguaCut from '../assets/hamiguacut.JPG';
 import HamiguaCross from '../assets/hamiguacross.png';
