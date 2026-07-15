@@ -10,15 +10,15 @@ import FleshColor from '../assets/color.png';
 import Skin from '../assets/skin.png';
 import React from 'react';
 
-import ShunkaWhole from '../assets/shunka.jpg';
+import ShunkaWhole from '../assets/Shunka.jpg';
 import ShunkaCut from '../assets/shunkaCut.JPG';
 import ShunkaCross from '../assets/ShunkaCross.JPG';
 import HamiguaWhole from '../assets/hamigua.jpg';
-import HamiguaCut from '../assets/HamiguaCut.JPG';
-import HamiguaCross from '../assets/HamiguaCross.png';
-import InthanonWhole from '../assets/Inthanon.png';
-import InthanonCut from '../assets/InthanonCut.png';
-import InthanonCross from '../assets/InthanonCross.png';
+import HamiguaCut from '../assets/hamiguacut.JPG';
+import HamiguaCross from '../assets/hamiguacross.png';
+import InthanonWhole from '../assets/inthanon.png';
+import InthanonCut from '../assets/inthanoncut.png';
+import InthanonCross from '../assets/inthanoncross.png';
 
 const productShunka = [ShunkaWhole, ShunkaCut, ShunkaCross];
 const productHamigua = [HamiguaWhole, HamiguaCut, HamiguaCross];
