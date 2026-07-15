@@ -2,12 +2,12 @@ import { Flag, Target, Award, Rocket, Sprout, Leaf, Lightbulb, Scale, User, Star
 import heroGreenhouse from '../assets/hero1.png';
 import founderImg from '../assets/founder.jpg';
 import React from 'react';
-import greenhouse1 from '../assets/greenhouse1.jpg';
+import greenhouse1 from '../assets/greenhouse1.JPG';
 import greenhouse2 from '../assets/greenhouse2.jpg';
-import greenhouse3 from '../assets/greenhouse3.jpg';
-import greenhouse4 from '../assets/greenhouse4.png';
-import img1 from '../assets/img1.jpg';
-import TakumiTeam from '../assets/takumiteam.jpg';
+import greenhouse3 from '../assets/greenhouse3.JPG';
+import greenhouse4 from '../assets/greenhouse4.PNG';
+import img1 from '../assets/img1.JPG';
+import TakumiTeam from '../assets/takumiteam.JPG';
 
 const galleryImages = [
   TakumiTeam,

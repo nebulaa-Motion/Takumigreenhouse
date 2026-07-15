@@ -319,16 +319,16 @@ function InquiryFormCard() {
     setLoading(true);
     try {
       await emailjs.send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_vou4rq9',
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_y5bk2bm',
+        import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_s4r7v6n',
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_vmlwmzi',
         {
           from_name: formData.name,
           from_email: formData.email,
           company: formData.company,
           message: formData.message,
-          to_email: 'Rimbaagronusantara@gmail.com',
+          to_email: 'rimbaagronusantara@gmail.com',
         },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'FiuwbIBh1nylOmRfg',
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'xbeSnxNZdKCkGLlFN',
       );
       setSubmitted(true);
       setTimeout(() => {

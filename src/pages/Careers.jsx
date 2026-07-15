@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 import heroImg from '../assets/hero1.png';
 import Teamwork from '../assets/teamwork.png';
 import heroGreenhouse from '../assets/hero1.png';
-import TakumiTeam from '../assets/takumiteam.jpg';
+import TakumiTeam from '../assets/takumiteam.JPG';
 /* ------------------------------------------------------------------ */
 /*  Nav — identical HeaderBar from other pages                         */
 /* ------------------------------------------------------------------ */

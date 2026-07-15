@@ -1,32 +1,32 @@
 import React from 'react';
-import greenhouse1 from '../assets/greenhouse1.jpg';
-import greenhouse5 from '../assets/greenhouse5.jpg';
+import greenhouse1 from '../assets/greenhouse1.JPG';
+import greenhouse5 from '../assets/greenhouse5.JPG';
 import greenhouseHero from '../assets/hero1.png';
 
-import fert1 from '../assets/fertigation1.jpg';
-import fert2 from '../assets/fertigation2.jpg';
-import fert3 from '../assets/fertigation3.jpg';
-import fert4 from '../assets/fertigation4.jpg';
+import fert1 from '../assets/fertigation1.JPG';
+import fert2 from '../assets/fertigation2.JPG';
+import fert3 from '../assets/fertigation3.JPG';
+import fert4 from '../assets/fertigation4.JPG';
 
-import climat1 from '../assets/cc1.jpg';
-import climat2 from '../assets/cc2.jpg';
-import climat3 from '../assets/cc3.jpg';
-import climat4 from '../assets/cc4.jpg';
+import climat1 from '../assets/cc1.JPG';
+import climat2 from '../assets/cc2.JPG';
+import climat3 from '../assets/cc3.JPG';
+import climat4 from '../assets/cc4.JPG';
 
-import sust1 from '../assets/Sustainable1.jpg';
+import sust1 from '../assets/Sustainable1.JPG';
 import sust2 from '../assets/greenhouse2.jpg';
-import sust3 from '../assets/Sustainable2.jpg';
+import sust3 from '../assets/Sustainable2.JPG';
 
 import processSeedSelection from '../assets/seed.jpg';
-import processNursery from '../assets/nursery.jpg';
+import processNursery from '../assets/nursery.JPG';
 import processTransplanting from '../assets/transplanting.jpg';
 import processVegetativeGrowth from '../assets/growth.jpg';
-import processPollination from '../assets/pollination.jpg';
+import processPollination from '../assets/pollination.JPG';
 import processFruitDevelopment from '../assets/fruit.jpg';
-import processHarvest from '../assets/harvest.jpg';
+import processHarvest from '../assets/harvest.JPG';
 import processGrading from '../assets/grading.jpg';
 import processPacking from '../assets/packing.png';
-import processDistribution from '../assets/distribution.jpg';
+import processDistribution from '../assets/distribution.JPG';
 
 /* ================================================================== */
 /*  Intersection Observer — reusable                                   */
