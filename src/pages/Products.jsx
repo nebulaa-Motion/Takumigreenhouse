@@ -11,10 +11,10 @@ import Skin from '../assets/skin.png';
 import React from 'react';
 
 import ShunkaWhole from '../assets/shunka.jpg';
-import ShunkaCut from '../assets/shunkaCut.jpg';
-import ShunkaCross from '../assets/ShunkaCross.jpg';
+import ShunkaCut from '../assets/shunkaCut.JPG';
+import ShunkaCross from '../assets/ShunkaCross.JPG';
 import HamiguaWhole from '../assets/hamigua.jpg';
-import HamiguaCut from '../assets/HamiguaCut.jpg';
+import HamiguaCut from '../assets/HamiguaCut.JPG';
 import HamiguaCross from '../assets/HamiguaCross.png';
 import InthanonWhole from '../assets/Inthanon.png';
 import InthanonCut from '../assets/InthanonCut.png';
