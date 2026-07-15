@@ -11,8 +11,8 @@ import Skin from '../assets/skin.png';
 import React from 'react';
 
 import ShunkaWhole from '../assets/Shunka.jpg';
-import ShunkaCut from '../assets/shunkaCut.JPG';
-import ShunkaCross from '../assets/ShunkaCross.JPG';
+import ShunkaCut from '../assets/shunkacut.JPG';
+import ShunkaCross from '../assets/Shunkacross.JPG';
 import HamiguaWhole from '../assets/hamigua.jpg';
 import HamiguaCut from '../assets/hamiguacut.JPG';
 import HamiguaCross from '../assets/hamiguacross.png';
