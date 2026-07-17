@@ -408,63 +408,147 @@ export default function Careers() {
 
         {/* ---- BENEFITS + PHOTO ---- */}
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-8 lg:px-12 py-6 md:py-10">
-          <FadeUp>
-            <div
-              className="rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-500 flex flex-col md:flex-row"
-              style={{ minHeight: '360px' }}
-            >
-              {/* Left panel — Benefits */}
-              <div
-                className="relative flex-1 p-7 md:p-10 text-white overflow-hidden"
-                style={{ background: 'linear-gradient(135deg, #22C55E 0%, #16A34A 100%)' }}
+  <FadeUp>
+    <div
+      className="
+        rounded-3xl
+        overflow-hidden
+        shadow-xl
+        hover:shadow-2xl
+        transition-shadow
+        duration-500
+        flex
+        flex-col
+        lg:flex-row
+      "
+    >
+      {/* Left panel — Benefits */}
+      <div
+        className="
+          relative
+          w-full
+          lg:w-1/2
+          min-w-0
+          p-7
+          md:p-10
+          text-white
+          overflow-hidden
+        "
+        style={{
+          background:
+            'linear-gradient(135deg, #22C55E 0%, #16A34A 100%)',
+        }}
+      >
+        {/* Decorative pattern */}
+        <div
+          className="absolute inset-0 opacity-[0.04]"
+          style={{
+            backgroundImage:
+              'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+            backgroundSize: '28px 28px',
+          }}
+        />
+
+        <div className="relative z-10">
+          <div className="flex items-center gap-3 mb-8">
+            <div className="h-px flex-1 bg-white/40" />
+
+            <h3 className="shrink-0 font-heading font-bold text-xl md:text-2xl text-white tracking-tight">
+              Benefits
+            </h3>
+
+            <div className="h-px flex-1 bg-white/40" />
+          </div>
+
+          <div className="space-y-5">
+            {benefits.map((benefit, index) => (
+              <SlideRight
+                key={index}
+                align="left"
+                delay={`delay-${Math.min(index * 100, 300)}`}
               >
-                {/* Decorative pattern */}
-                <div className="absolute inset-0 opacity-[0.04]" style={{
-                  backgroundImage: `radial-gradient(circle at 2px 2px, white 1px, transparent 0)`,
-                  backgroundSize: '28px 28px',
-                }} />
-
-                <div className="relative z-10">
-                  <div className="flex items-center gap-3 mb-8">
-                    <div className="h-px flex-1 bg-white/40" />
-                    <h3 className="font-heading font-bold text-xl md:text-2xl text-white tracking-tight">Benefits</h3>
-                    <div className="h-px flex-1 bg-white/40" />
+                <div className="flex items-center gap-3.5 group min-w-0">
+                  <div
+                    className="
+                      shrink-0
+                      w-9
+                      h-9
+                      rounded-lg
+                      flex
+                      items-center
+                      justify-center
+                      bg-white/20
+                      backdrop-blur-sm
+                      transition-all
+                      duration-300
+                      group-hover:bg-white/30
+                      group-hover:scale-110
+                      group-hover:rotate-3
+                    "
+                  >
+                    {benefit.svg}
                   </div>
 
-                  <div className="space-y-5">
-                    {benefits.map((b, i) => (
-                      <SlideRight key={i} align="left" delay={`delay-${Math.min(i * 100, 300)}`}>
-                        <div className="flex items-center gap-3.5 group">
-                          <div className="flex-shrink-0 w-9 h-9 rounded-lg flex items-center justify-center bg-white/20 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/30 group-hover:scale-110 group-hover:rotate-3">
-                            {b.svg}
-                          </div>
-                          <span className="text-sm md:text-base font-semibold text-white tracking-wide">{b.label}</span>
-                        </div>
-                      </SlideRight>
-                    ))}
-                  </div>
+                  <span className="min-w-0 text-sm md:text-base font-semibold text-white tracking-wide break-words">
+                    {benefit.label}
+                  </span>
                 </div>
-              </div>
-
-              {/* Right panel — Greenhouse photo */}
-              <div className="relative w-full lg:w-1/2 h-64 sm:h-80 lg:h-auto overflow-hidden">
-                <img
-                  src={TakumiTeam}
-                  alt="Greenhouse interior"
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                />
-                {/* Elegant overlay gradient */}
-                <div className="absolute inset-0" style={{
-                  background: 'linear-gradient(135deg, rgba(34,197,94,0.15) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.25) 100%)',
-                }} />
-                {/* Bottom highlight */}
-                <div className="absolute bottom-0 left-0 right-0 h-1/3" style={{
-                  background: 'linear-gradient(to top, rgba(34,197,94,0.2), transparent)',
-                }} />
-              </div>
-            </div>
-          </FadeUp>
+              </SlideRight>
+            ))}
+          </div>
         </div>
+      </div>
+
+      {/* Right panel — Greenhouse photo */}
+      <div
+        className="
+          relative
+          w-full
+          lg:w-1/2
+          min-w-0
+          h-64
+          sm:h-80
+          lg:h-auto
+          lg:min-h-[360px]
+          overflow-hidden
+        "
+      >
+        <img
+          src={TakumiTeam}
+          alt="Greenhouse interior"
+          className="
+            absolute
+            inset-0
+            w-full
+            h-full
+            object-cover
+            transition-transform
+            duration-700
+            hover:scale-105
+          "
+        />
+
+        {/* Elegant overlay gradient */}
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background:
+              'linear-gradient(135deg, rgba(34,197,94,0.15) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.25) 100%)',
+          }}
+        />
+
+        {/* Bottom highlight */}
+        <div
+          className="absolute bottom-0 left-0 right-0 h-1/3 pointer-events-none"
+          style={{
+            background:
+              'linear-gradient(to top, rgba(34,197,94,0.2), transparent)',
+          }}
+        />
+      </div>
+    </div>
+  </FadeUp>
+</div>
 
         {/* ---- OPEN POSITIONS ---- */}
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-8 lg:px-12 pb-16 md:pb-24 pt-6 md:pt-10">
